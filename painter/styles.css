@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(255, 174, 0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+canvas{
+    margin: auto;
+    border: 1px cyan solid;
+    box-shadow: 1vh 1vh 3vw rgb(104, 2, 145);
+    border-radius: 20px;
+    background-color: rgb(255, 166, 0);
+}
+
+div{
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    font-family: 'Brush script MT';
+    color:rgba(41, 40, 40, 0.527);
+    height: 8vh;
+    width: 99vw;
+    text-align: center;
+    border-radius: 20px 20px 10px 10px;
+    font-size: 6vh;
+    background-image: linear-gradient( rgb(253, 253, 255), rgba(255, 255, 255, 0.219));
+
+}
+
+button{
+    z-index: 998;
+    position: fixed;
+    bottom: 3vh;
+    height: 8vh;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    padding: 1vh;
+    margin: 0;
+    font-size: 30px;
+    background-image: linear-gradient(rgba(205, 119, 240, 0.774), rgba(158, 158, 158, 0.589));
+}
+
+.draw{
+    right: calc(40vw + 14vw);
+}
+
+.play{
+    right: calc(40vw - 10vw);
+}
+
+button:hover{
+    background-image: linear-gradient(rgb(219, 219, 219), rgb(117, 117, 117));
+}
+
+section{
+    display: flex;
+    flex-flow: row wrap;
+}
